@@ -67,26 +67,4 @@
         <framework src="src/android/cordovaAF.gradle" custom="true" type="gradleReference" />
     </platform>
 
-
-    <!-- ios -->
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="AppsFlyerPlugin">
-                <param name="ios-package" value="AppsFlyerPlugin" />
-            </feature>
-        </config-file>
-        <header-file src="src/ios/AppsFlyerPlugin.h" />
-        <header-file src="src/ios/AppsFlyerLib.h" />
-        <source-file src="src/ios/AppsFlyerPlugin.m" />
-        <header-file src="src/ios/AppsFlyerLinkGenerator.h" />
-        <header-file src="src/ios/AppsFlyerCrossPromotionHelper.h" />
-        <header-file src="src/ios/AppsFlyerShareInviteHelper.h" />
-        <header-file src="src/ios/AppsFlyerX+AppController.h" />
-        <source-file src="src/ios/AppsFlyerX+AppController.m" />
-        <source-file src="src/ios/libAppsFlyerLib.a" compiler-flags="-lAppsFlyerLib" framework="true" />
-        <framework src="AdSupport.framework" weak="true" />
-        <framework src="iAd.framework" weak="true" />
-        <framework src="Security.framework" weak="true" />
-        <framework src="AppTrackingTransparency.framework" weak="true" />
-    </platform>
 </plugin>
