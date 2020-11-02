@@ -5,20 +5,18 @@
   "cordova": {
     "id": "cordova-plugin-appsflyer-sdk",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git"
+    "url": "git+https://github.com/RoboFinance/cordova-plugin-appsflyer-sdk.git"
   },
   "keywords": [
     "cordova",
     "appsflyer",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "engines": [
     {
